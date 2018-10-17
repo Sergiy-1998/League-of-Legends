@@ -1,0 +1,336 @@
+.person2:hover .oblue{
+	
+opacity: 0.5;
+}
+.person2{
+	
+	/*position: absolute;*/
+	margin-top: 100px;
+	margin-left: 50px;
+	height: 350px;
+	width:850px;
+	perspective: 1500px;
+	
+	transform-style: preserve-3d;
+	transform:translateZ(180px) rotateX(0deg);
+}
+.ornICON{
+	transition-timing-function: ease-in-out;
+	transition:5s;
+	transform: translateZ(151px) rotateX(0deg);
+	/*float: left;*/
+
+}
+.ornICON.inp{
+	opacity: 0;
+}
+
+.fororn1{
+	transition-timing-function: ease-in-out;
+	transition: 2s;
+	transform: rotateX(0deg) translateZ(151px);
+}
+.fororn2{
+	transition-timing-function: ease-in-out;
+	transition: 2s;
+
+	transform: rotateX(90deg) translateZ(151px);
+}
+
+.fororn1.inp{
+transform: rotateX(-90deg) translateZ(151px);
+}
+.fororn2.inp{
+transform: rotateX(0deg) translateZ(151px);
+}
+
+.oblue{
+	color:snow;
+	font-size:100px;
+
+	transition: 2s;
+	position: absolute;
+	width: 302px;
+	height: 302px;
+	background-color:red;
+	transform: translateZ(151px);
+	opacity: 0;
+}
+
+.abylorn{
+	cursor: pointer;
+	transition: 2s;
+	position: absolute;
+	
+	display: inline-block;
+	margin-top: 120px;
+	margin-left: 375px;
+
+
+	
+	transform: rotateX(0deg) translateZ(210px);
+
+}
+
+.abylorn.inp{
+	transform: rotateX(-90deg) translateZ(149px);
+}
+.ornICAN{
+	/*position:absolute;*/
+	float:left;
+}
+.ebut1Orn{
+	opacity:0;
+	transition:1s;
+	border-style:solid;
+	border-width:5px;
+	border-color:snow;
+	margin-top:10px;
+	margin-left: 20px;
+	cursor:pointer;
+	border-radius:50%;
+	position:absolute;
+	display:block;
+	width:50px;
+	height:50px;
+	
+	background-color:black;
+	transform:translateZ(180px) rotateX(0deg);
+}
+.ebut1Orn.inp{
+	opacity: 1;
+}
+
+.ornICANP{
+	transition: 2s;
+	position: absolute;
+	width: 302px;
+	height: 302px;
+	transform: translateZ(151px);
+	opacity: 0;
+}
+.ornICANQ{
+	transition: 2s;
+	position: absolute;
+	width: 302px;
+	height: 302px;
+	transform: translateZ(151px);
+	opacity: 0;
+}
+.ornICANP.inp{
+	opacity: 1;
+}
+.ornICANQ.inp{
+	opacity: 1;
+}
+
+.ORNQT{
+	
+	position: absolute;
+	
+	color:snow;
+	transform: translateZ(180px) rotateX(0deg);
+	opacity:0;
+	transition:1s;
+	
+}
+.ORNPT{
+	
+	position: absolute;
+	
+	color:snow;
+	transform: translateZ(180px) rotateX(0deg);
+	opacity:0;
+	transition:1s;
+	
+}
+.ORNET{
+	
+	position: absolute;
+	
+	color:snow;
+	transform: translateZ(180px) rotateX(0deg);
+	opacity:0;
+	transition:1s;
+	
+}
+.ORNWT{
+	
+	position: absolute;
+	
+	color:snow;
+	transform: translateZ(180px) rotateX(0deg);
+	opacity:0;
+	transition:1s;
+	
+}
+.ORNRT{
+	
+	position: absolute;
+	
+	color:snow;
+	transform: translateZ(180px) rotateX(0deg);
+	opacity:0;
+	transition:1s;
+	
+}
+.ORNQT.inp{
+	
+opacity:1;
+}
+.ORNPT.inp{
+	
+opacity:1;
+}
+.ORNET.inp{
+	
+opacity:1;
+}
+.ORNWT.inp{
+	
+opacity:1;
+}
+.ORNRT.inp{
+	
+opacity:1;
+}
+.ORNPTF{
+	
+	transition:2s;
+	position: absolute;
+	opacity: 0;
+	color:snow;
+	transform: rotateX(90deg) translateZ(130px) ;
+	
+	
+	
+}
+.ORNPTF.inp{
+transform: translateZ(180px) rotateX(0deg);
+opacity: 1;
+
+}
+.ORNQTF{
+	
+	transition:2s;
+	position: absolute;
+	opacity: 0;
+	color:snow;
+	transform: rotateX(90deg) translateZ(130px) ;
+	
+	
+	
+}
+.ORNQTF.inp{
+transform: translateZ(180px) rotateX(0deg);
+opacity: 1;
+
+}
+.soundo{
+	
+	transition:1s;
+	border-style:solid;
+	border-width:2px;
+	border-color:snow;
+	margin-top:260px;
+	margin-left: 20px;
+	cursor:pointer;
+	border-radius:50%;
+	position:absolute;
+	display:block;
+	width:25px;
+	height:25px;
+	
+	transform:translateZ(180px) rotateX(0deg);
+}
+.sOnOrn{
+	display: none;
+}
+.sOffOrn.inp{
+	display: none;
+}
+.sOnOrn.inp{
+	display: block;
+}
+
+.soundo.inp{
+	background-color: rgba(0,0,0,0);
+}
+
+
+
+
+.tophelpORN{
+	width:474px;
+
+	text-align: center;
+	background-color:black;
+	margin:0;
+	margin-top: 10px;
+	margin-left:302px;
+
+	position:absolute;
+	font-size:30px;
+	color:snow;
+	transform: translateZ(220px) rotateX(0deg);
+	opacity:0;
+	transition:1s;
+}
+.person2:hover .tophelpORN{
+	opacity: 0.5;
+}
+.historyORN{
+	overflow-y: scroll;
+	height: 0px;
+	width: 492px;
+	position: absolute;
+	background-color: #b0032c;
+	transform:translateZ(211px) rotateX(0deg);
+	margin-top: 8px;
+	margin-left: 302px;
+	transition: 1s;
+	transition-timing-function: ease-in-out;
+}
+.historyORN.inp{
+	height: 288px;
+}
+.tophelpORNBT{
+	transition: 1s;
+	opacity: 0;
+	margin-left: 675px;
+	margin-top: 18px;
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background-color: black;
+	border-style:solid;
+	border-width:2px;
+	border-color:snow;
+	cursor:pointer;
+	transform:translateZ(220px) rotateX(0deg);
+}
+.tophelpORNBT.inp{
+background-color: snow;	
+}
+.person2:hover .tophelpORNBT{
+	opacity: 0.5;
+
+}
+.bothelpORN{
+	width:474px;
+	text-align: center;
+	background-color:black;
+	margin:0;
+	margin-left:302px;
+	margin-top:260px;
+
+	position:absolute;
+	font-size:30px;
+	color:snow;
+	transform: translateZ(220px) rotateX(0deg);
+	opacity: 0;
+	transition:1s;
+}
+.person2:hover .bothelpORN{
+	opacity: 0.5;
+}
